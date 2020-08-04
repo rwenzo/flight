@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form>
+      <fieldset>
+        <legend><span>1</span> Your Details</legend>
+        <label for="Your Name"
+          >Your Name:
+          <input
+            id="Your Name"
+            type="text"
+            placeholder="your name"
+            required
+            autofocus
+          />
+        </label>
+
+        <label for="Email"
+          >Email:
+          <input
+            id="Email"
+            type="text"
+            placeholder="Email"
+            required
+            autofocus
+          />
+        </label>
+      </fieldset>
+      <fieldset>
+        <legend><span>2</span> Destinations and Depatures</legend>
+        <label for="Depatures">Depatures</label>
+        <input id="Depatures" type="date" />
+        <label for="Returns">Returns</label>
+        <input id="Returns" type="date" />
+        <label for="Leaving From">Leaving From</label>
+        <select name="" id="Leaving From">
+          <option value="London">London</option>
+          <option value="Belfast">Belfast</option>
+          <option value="Cardif">Cardif</option>
+        </select>
+        <label for="Going to">Going to</label>
+        <select name="" id="Going to">
+          <option value="London">London</option>
+          <option value="Belfast">Belfast</option>
+          <option value="Cardif">Cardif</option>
+        </select>
+      </fieldset>
+      <fieldset>
+        <legend><span>3</span> Feedbak</legend>
+        <label for="Where did you hear about us ?"
+          >Where did you hear about us ?</label
+        >
+        <select name="" id="Where did you hear about us ?">
+          <option value="TV">TV</option>
+          <option value="Newspaper">Newspaper</option>
+          <option value="Radio">Radio</option> </select
+        ><br /><br />
+        <p>Would you use us again?</p>
+        <label for="Yes">Yes</label>
+        <input id="Yes" type="radio" />
+        <label for="No">No</label>
+        <input id="No" type="radio" />
+        <label for="Maybe">Maybe</label>
+        <input id="Maybe" type="radio" /><br />
+        <br />
+        <br />
+        <label for="Any Comments">Any Comments</label>
+        <textarea name="" id="Any Comments" cols="10 " rows="3"></textarea
+        ><br /><br />
+
+        <label for="Join mailing list">Join mailing list</label>
+        <input id="Join mailing list" type="checkbox" />
+      </fieldset>
+      <br />
+
+      <input id="Submit" type="Submit" />
+    </form>
+  </body>
+</html>
